@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="./favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/4628440eac.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" type="text/css" href="./index.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <title>E-learning carvi</title>
+  </head>
+  <body>
+    <div class="waper">
+      <div class="baner">
+        <!-- <subnavbar/> -->
+
+        <div class="container-fluid topbar">
+          <div class="d-flex align-items-center justify-content-center">
+            <h1 class="mt-2 mking">
+              new post
+              <span class="fi-minus">-</span>
+              <span class="mking">making hybrid working work</span>
+            </h1>
+          </div>
+        </div>
+
+        <!-- <navbar> -->
+
+        <div class="container mt-4">
+          <div class="d-flex align-items-center justify-content-between">
+            <img src="./image/Logo.svg" width="180px" class="logo" />
+            <div class="nav-items p-3">
+              <a href="/">Home</a>
+
+              <span onclick="handleClick()">Learning Solutions</span>
+              <!-- <div class="dropdown">
+                <button class="dropbtn">Learning Solutions</button>
+                <div class="dropdown-content">
+                  <a href="/">Onboarding</a>
+                  <a href="/">Sales Enablement</a>
+                  <a href="/">Compliance</a>
+                  <a href="/">Product Training</a>
+                  <a href="/">Customer Service</a>
+                  <a href="/">Diversity Equality & Inclusion</a>
+                </div>
+              </div> -->
+              <span onclick="handleClicks()">Learning Impact</span>
+
+              <!-- <div class="dropdown">
+                <button class="dropbtn">Learning Impact</button>
+                <div class="dropdown-content">
+                  <a href="/">Knowledge Improvement</a>
+                  <a href="/">Skill Development </a>
+                  <a href="/">Cultural Change </a>
+                  <a href="/">Learning Adoption</a>
+                  <a href="/">Performance Improvement</a>
+                  <a href="/">Creating Awareness</a>
+                </div>
+              </div> -->
+
+              <a href="/">Learning Development</a>
+              <!-- <div class="dropdown">
+                <button class="dropbtn">Learning Development</button>
+                <div class="dropdown-content">
+                  <a href="/">Customer Development</a>
+                  <a href="/">Game Based Learning</a>
+                  <a href="/">Animation & Video</a>
+                  <a href="/">AR / VR Solutions</a>
+                  <a href="/">Artificial Intelligence</a>
+                  <a href="/">Translation & Localization</a>
+                  <a href="/">PDF/ Infographic</a>
+                </div>
+              </div> -->
+
+              <a href="/">Industrial Learning</a>
+
+              <button
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+                class="ms-3 contatc"
+                style="
+                  font-size: 16px;
+                  font-weight: 700;
+                  background-color: #ffb905;
+                  color: #004743;
+                  /* font-family: poppins !important; */
+                  padding: 8px 1.2em 8px 1.2em;
+                  border-radius: 20px;
+                  border: none;
+                "
+              >
+                Contact us
+              </button>
+            </div>
+            <div class="menu">
+              <i
+                class="fa-solid fa-bars"
+                style="color: #ffffff"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasExample"
+                aria-controls="offcanvasExample"
+              ></i>
+              <div
+                class="offcanvas offcanvas-start"
+                tabindex="-1"
+                id="offcanvasExample"
+                aria-labelledby="offcanvasExampleLabel"
+              >
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasExampleLabel"></h5>
+                  <button
+                    type="button"
+                    class="btn-close text-reset mt-3 btn-close-white"
+                    data-bs-dismiss="offcanvas"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="offcanvas-body">
+                  <div>
+                    <div class="nav-mobile">
+                      <ul class="unorder">
+                        <li>
+                          <a href="/">Home</a>
+                        </li>
+                        <li>
+                          <a
+                            href="#"
+                            onclick="handleClick()"
+                            data-bs-dismiss="offcanvas"
+                            >Learning Solutions</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            href="#"
+                            onclick="handleClicks()"
+                            data-bs-dismiss="offcanvas"
+                            >Learning Impact</a
+                          >
+                        </li>
+                        <li>
+                          <a href="/">Learning Development</a>
+                        </li>
+                        <li>
+                          <a href="/">Industrial Learning</a>
+                        </li>
+
+                        <li>
+                          <button
+                            data-bs-toggle="modal"
+                            data-bs-target="#exampleModal"
+                            class="ms-3 contatc"
+                            style="
+                              font-size: 16px;
+                              font-weight: 700;
+                              background-color: #ffb905;
+                              color: #004743;
+                              /* font-family: poppins !important; */
+                              padding: 8px 1.2em 8px 1.2em;
+                              border-radius: 20px;
+                              border: none;
+                            "
+                          >
+                            Contact us
+                          </button>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- <header> -->
+
+        <div class="container">
+          <div class="row mt-10">
+            <div class="col-sm-6">
+              <img src="./image/Home-Banner.png" class="toy" />
+            </div>
+            <div class="col-sm-6">
+              <h1 class="text-main mt-3">
+                YOUR PURPOSE IS TO BRING CONTEXT, RELEVANCE & INTEREST IN
+                LEARNING.
+              </h1>
+              <p class="text-white performance mt-4">
+                The first steps for performance are learning new skills, change
+                in behaviour and application at work. At learning carnival we
+                enable
+              </p>
+              <button type="button" class="viewlearn_btn mt-3">
+                <span class="mb-0"
+                  >View Learning Samples
+                  <i class="fa-solid fa-power-off ms-3"></i>
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- <upskilss> -->
+
+      <div class="container-fluid mt-5" id="multi">
+        <div class="">
+          <div class="text-center">
+            <h1 class="upskilss">UPSKILLING SOLUTIONS</h1>
+            <h1 class="text-business">FOR EVERY BUSINESS FUNCTION</h1>
+            <span class="text-center performance">
+              We offer impactful workforce development Solutions that let your
+              people perform continuously.
+            </span>
+          </div>
+          <div class="text-left mt-5">
+            <div class="row">
+              <div class="col-sm-11 m-auto">
+                <div class="row">
+                  <div class="col-sm-6">
+                    <div class="boarding_section">
+                      <div class="p-2">
+                        <h4 class="employee mt-5">Employee Boarding</h4>
+                        <p class="youremploye mt-5">
+                          Let Your Employees Feel Happy About Their Joining
+                          Decisions. Our onboarding solutions impact the overall
+                          employee feel good
+                        </p>
+                      </div>
+                      <div>
+                        <img
+                          src="./image/Employee Onboarding.png"
+                          class="Bussinesssection_image"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="compliancesection">
+                      <div class="p-2">
+                        <h4 class="employee text-white mt-5">Compliance</h4>
+                        <p class="youremploye text-white mt-5">
+                          Complex laws and evolving policies are challenging for
+                          your teams to navigate.Our compliance solutions ensure
+                          that employees...
+                        </p>
+                      </div>
+                      <div>
+                        <img
+                          src="./image/Compliance.png"
+                          class="Bussinesssection_image"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="text-center mt-5">
+                    <button
+                      type="submit"
+                      data-bs-toggle="modal"
+                      data-bs-target="#examplesModal"
+                      class="Downloadbutton text-center"
+                    >
+                      DOWNLOAD CASE STUDY
+                      <i class="fa-solid fa-download ms-2"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div>
+          <div class="text-left mt-5">
+            <div class="row">
+              <div class="col-sm-11 m-auto">
+                <div class="row">
+                  <div class="col-sm-6">
+                    <div class="productsection">
+                      <div class="p-2">
+                        <h4 class="employee mt-5">Product Training</h4>
+                        <p class="youremploye mt-5">
+                          To communicate the various aspects of the products
+                          like features, advantages, benefits and
+                          differentiators from the market and...
+                        </p>
+                      </div>
+                      <div>
+                        <img
+                          src="./image/Product Training.png"
+                          class="Bussinesssection_image"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="Diversitysection">
+                      <div class="p-2">
+                        <h4 class="employee mt-5">
+                          Diversity, Equality & Inclusion
+                        </h4>
+                        <p class="youremploye mt-5">
+                          Our programs help you become a recognized inclusive
+                          brand and gain huge social respect among customers,
+                          employees and...
+                        </p>
+                      </div>
+                      <div>
+                        <img
+                          src="./image/Diversity, Equality & Inclusion.png"
+                          class="Bussinesssection_image"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="text-center mt-5">
+                    <button
+                      type="submit"
+                      data-bs-toggle="modal"
+                      data-bs-target="#examplesModal"
+                      class="Downloadbutton text-center"
+                    >
+                      DOWNLOAD CASE STUDY
+                      <i class="fa-solid fa-download ms-2"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div>
+          <div class="text-left mt-5">
+            <div class="row">
+              <div class="col-sm-11 m-auto">
+                <div class="row">
+                  <div class="col-sm-6">
+                    <div class="salesection">
+                      <div class="p-2">
+                        <h4 class="employee text-white mt-5">
+                          Sales Enablement
+                        </h4>
+                        <p class="youremploye text-white mt-5">
+                          Buyers expectations are evolving each day. Sales needs
+                          to be responsive to the ever changing needs. Our
+                          solutions impact the...
+                        </p>
+                      </div>
+                      <div>
+                        <img
+                          src="./image/Sales Enablement.png"
+                          class="Bussinesssection_image"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="customerssection">
+                      <div class="p-2">
+                        <h4 class="employee mt-5">Customer Service Training</h4>
+                        <p class="youremploye mt-5">
+                          Customers are looking for consistent experience at
+                          each interaction with the company. Our solutions help
+                          companies to improve...
+                        </p>
+                      </div>
+                      <div>
+                        <img
+                          src="./image/Customer Service Training.png"
+                          class="Bussinesssection_image"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="text-center mt-5">
+                    <button
+                      type="submit"
+                      data-bs-toggle="modal"
+                      data-bs-target="#examplesModal"
+                      class="Downloadbutton text-center"
+                    >
+                      DOWNLOAD CASE STUDY
+                      <i class="fa-solid fa-download ms-2"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- <purpose based> -->
+
+      <div class="purposewaper" id="multii">
+        <div class="container-fluid mt-5">
+          <div class="">
+            <div class="text-center">
+              <div class="container">
+                <div
+                  class="row m-auto align-items-center justify-content-center"
+                >
+                  <div class="col-sm-10 mt-5">
+                    <h1 class="purposebased">PURPOSE BASED</h1>
+
+                    <h1 class="inititave">LEARNING INITIATIVES</h1>
+
+                    <span class="text-center improvement">
+                      Continuous improvement is necessary for organisations to
+                      remain competitive and relevant. On the other hand, the
+                      will to learn & make improvements makes employees
+                      adaptable to change. What is your purpose to make
+                      improvements in your organisation?
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="text-left mt-5">
+              <div class="row">
+                <div class="col-sm-11 m-auto">
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <div class="training_section">
+                        <div
+                          class="d-flex align-items-center justify-content-end"
+                        >
+                          <div class="">
+                            <img
+                              src="./based-image/Product-Training.png"
+                              class="Bussinesssection_im"
+                            />
+                          </div>
+                        </div>
+
+                        <div class="">
+                          <img
+                            src="./logo/Product Training.svg"
+                            class="logoproduct"
+                          />
+                          <h4 class="product-traning mt-3">Product Training</h4>
+                          <p class="yourproduct">
+                            Do you want your employees to make more informed
+                            decisions? Then trans- ferring the right information
+                            to them is the first step in the learning journey.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 employeeupskil">
+                      <div class="training_section">
+                        <div
+                          class="d-flex align-items-center justify-content-end"
+                        >
+                          <div class="">
+                            <img
+                              src="./based-image/I-want-to-Upskill-Employees.png"
+                              class="Bussinesssection_im"
+                            />
+                          </div>
+                        </div>
+                        <div class="p-2">
+                          <img
+                            src="./logo/I want to Upskill Employees.svg"
+                            class="logoproduct"
+                          />
+                          <h4 class="product-traning mt-3">
+                            I want to Upskill Employees
+                          </h4>
+                          <p class="yourproduct">
+                            Does your team face continuous chal- lenges that
+                            need new or higher skills? This can be solved
+                            through a continuous process of upskilling your
+                            employees.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="text-center mt-5">
+                      <button
+                        type="submit"
+                        data-bs-toggle="modal"
+                        data-bs-target="#exampleeModal"
+                        class="Downloadbutton text-center"
+                      >
+                        DOWNLOAD eBOOK
+                        <i class="fa-solid fa-download ms-2"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid">
+          <div>
+            <div class="text-left mt-5">
+              <div class="row">
+                <div class="col-sm-11 m-auto">
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <div class="training_section">
+                        <div
+                          class="d-flex align-items-center justify-content-end"
+                        >
+                          <div class="">
+                            <img
+                              src="./based-image/Looking-for-Performance-Improvement.png"
+                              class="Bussinesssection_im"
+                            />
+                          </div>
+                        </div>
+                        <div class="p-2">
+                          <img
+                            src="./logo/Looking for Performance Improvement.svg"
+                            class="logoproduct"
+                          />
+                          <h4 class="product-traning mt-3">
+                            I want Performance Improvement
+                          </h4>
+                          <p class="yourproduct">
+                            Employees are the core of every organisa- tion &
+                            there is always scope to improve at each level: the
+                            employee, the team, the department and the
+                            organisation. At what level do you want to improve
+                            perfor- mance?
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 employeeupskil">
+                      <div class="training_section">
+                        <div
+                          class="d-flex align-items-center justify-content-end"
+                        >
+                          <div class="">
+                            <img
+                              src="./based-image/I-want-to-Create-Awareness.png"
+                              class="Bussinesssection_im"
+                            />
+                          </div>
+                        </div>
+                        <div class="p-2">
+                          <img
+                            src="./logo/I want to Create Awareness.svg"
+                            class="logoproduct"
+                          />
+                          <h4 class="product-traning mt-3">
+                            I want to Create Awareness
+                          </h4>
+                          <p class="yourproduct">
+                            Do you find it difficult to establish com- pliance
+                            in employees on sensitive social, environment or
+                            legal issues; so they know their boundaries?
+                            Communicating the right message in the right format
+                            everytime time is the only way for em- ployee
+                            awareness. It’s not a one time event.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="text-center mt-5">
+                      <button
+                        type="submit"
+                        data-bs-toggle="modal"
+                        data-bs-target="#exampleeModal"
+                        class="Downloadbutton text-center"
+                      >
+                        DOWNLOAD eBOOK
+                        <i class="fa-solid fa-download ms-2"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid">
+          <div>
+            <div class="text-left mt-5">
+              <div class="row">
+                <div class="col-sm-11 m-auto">
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <div class="training_section">
+                        <div
+                          class="d-flex align-items-center justify-content-end"
+                        >
+                          <div class="">
+                            <img
+                              src="./based-image/I-want-Cultural-Change.png"
+                              class="Bussinesssection_im"
+                            />
+                          </div>
+                        </div>
+                        <div class="p-2">
+                          <img
+                            src="./logo/I want Cultural Change.svg"
+                            class="logoproduct"
+                          />
+                          <h4 class="product-traning text-white mt-3">
+                            I want Cultural Change
+                          </h4>
+                          <p class="yourproduct">
+                            It’s a known fact that culture eats strate- gy for
+                            breakfast, lunch and dinner. When an organisation is
+                            on a transformation path, a roadmap for cultural
+                            change is imperative. How change culture ?
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 employeeupskil">
+                      <div class="training_section">
+                        <div
+                          class="d-flex align-items-center justify-content-end"
+                        >
+                          <img
+                            src="./based-image/To-Increase-Learning-Adoption.png"
+                            class="Bussinesssection_im"
+                          />
+                        </div>
+                        <div class="p-2">
+                          <img
+                            src="./logo/To Increase Learning Adoption.svg"
+                            class="logoproduct"
+                          />
+                          <h4 class="product-traning mt-3">
+                            To Increase Learning Adoption
+                          </h4>
+                          <p class="yourproduct">
+                            Organizations have invested a lot in de- veloping
+                            and acquiring training content. However, for
+                            learning leaders training adoption remains an area
+                            of improve- ment. How to keep employees hooked to
+                            the training?
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="text-center mt-5">
+                      <button
+                        type="submit"
+                        data-bs-toggle="modal"
+                        data-bs-target="#exampleeModal"
+                        class="Downloadbutton text-center"
+                      >
+                        DOWNLOAD eBOOK
+                        <i class="fa-solid fa-download ms-2"></i>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="mt-3"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- <e-book modal> -->
+
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-sm-4 m-auto">
+            <div
+              class="modal fade"
+              id="exampleeModal"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="Downloadcase">
+                    <div class="modal-header">
+                      <h2 class="modal-title title fs-5">Download eBook</h2>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="modal-body mt-2">
+                      <div class="container-fluid">
+                        <form class="casestdyform">
+                          <div class="row mb-3">
+                            <label>Coperate Email Address</label>
+                            <input type="text" />
+                          </div>
+                          <div class="row mb-3">
+                            <label>Mobile With Country Code</label>
+                            <input type="text" />
+                          </div>
+                          <div class="row mb-3">
+                            <label>Title of eBook</label>
+                            <input type="text" />
+                          </div>
+                          <div class="row">
+                            <p class="px-0 info">
+                              The eBook in PDF format will be sent to your
+                              corporate email address.
+                            </p>
+                          </div>
+                          <div class="text-center">
+                            <button
+                              type="submit"
+                              class="modalbutton text-center"
+                            >
+                              Submit
+                            </button>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- <modal> case-study -->
+
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-sm-4 m-auto">
+            <div
+              class="modal fade"
+              id="examplesModal"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="Downloadcase">
+                    <div class="modal-header">
+                      <h2 class="modal-title title fs-5">
+                        Download Case Study
+                      </h2>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="modal-body mt-2">
+                      <div class="container-fluid">
+                        <form class="casestdyform">
+                          <div class="row mb-3">
+                            <label>Coperate Email Address</label>
+                            <input type="text" />
+                          </div>
+                          <div class="row mb-3">
+                            <label>Mobile With Country Code</label>
+                            <input type="text" />
+                          </div>
+                          <div class="row mb-3">
+                            <label>Type Of Case Study</label>
+                            <select name="slects">
+                              <option
+                                value="Employee-Boarding
+                              "
+                              >
+                                Employee Boarding
+                              </option>
+                              <option value="Compliance">Compliance</option>
+                              <option
+                                value="Product-Training
+                              "
+                              >
+                                Product Training
+                              </option>
+                              <option
+                                value="Diversity-Equality-Inclusion
+                              "
+                              >
+                                Diversity, Equality & Inclusion
+                              </option>
+                              <option
+                                value="Sales-Enablement
+
+                              "
+                              >
+                                Sales Enablement
+                              </option>
+                              <option
+                                value="Customer-Service-Training
+
+                              "
+                              >
+                                Customer Service Training
+                              </option>
+                            </select>
+                          </div>
+                          <div class="row">
+                            <p class="px-0 info">
+                              The case study in PDF format will be sent to your
+                              corporate email address.
+                            </p>
+                          </div>
+                          <div class="text-center">
+                            <button
+                              type="submit"
+                              class="modalbutton text-center"
+                            >
+                              Submit
+                            </button>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- <modal> contact -->
+
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-sm-4 m-auto">
+            <div
+              class="modal fade"
+              id="exampleModal"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="Downloadcase">
+                    <div class="modal-header">
+                      <h2 class="modal-title title fs-5">Contact US</h2>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="modal-body mt-2">
+                      <div class="container-fluid">
+                        <form class="casestdyform">
+                          <div class="row mb-3">
+                            <label>Coperate Email Address</label>
+                            <input type="text" />
+                          </div>
+                          <div class="row mb-3">
+                            <label>Mobile With Country Code</label>
+                            <input type="number" />
+                          </div>
+                          <div class="row mb-3">
+                            <label>Your Message*</label>
+                            <textarea type="textare" placeholder=""></textarea>
+                          </div>
+
+                          <div class="text-center">
+                            <button
+                              type="submit"
+                              class="modalbutton text-center"
+                            >
+                              Submit
+                            </button>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      function handleClick() {
+        var elem = document.getElementById("multi");
+        elem.scrollIntoView();
+      }
+      function handleClicks() {
+        var elem = document.getElementById("multii");
+        elem.scrollIntoView();
+      }
+      function handleClickse() {
+        var offcanvas = new bootstrap.Offcanvas(
+          document.getElementById("offcanvasExample")
+        );
+        offcanvas.hide();
+      }
+    </script>
+  </body>
+</html>

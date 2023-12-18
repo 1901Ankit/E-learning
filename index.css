@@ -1,0 +1,612 @@
+body {
+  margin: 0;
+
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+.skillss_para {
+  font-size: 17px !important;
+  color: rgb(72, 72, 72);
+  text-align: justify;
+}
+
+/* <navbar> */
+.nav-items a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+.nav-items span{
+  color: #ffffff;
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 0;
+  cursor: pointer;
+}
+.menu {
+  display: none;
+}
+.nav-items {
+  border-bottom: 1px solid #ffffff;
+}
+
+.dropbtn {
+  color: #ffffff;
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 0;
+  border: none;
+  background: transparent;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffb905;
+  min-width: 300px;
+  /* box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); */
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  font-weight: 700;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  color: #004743;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+/* <subnavr> */
+.mking {
+  color: #004743;
+  font-size: 15px !important;
+}
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(105deg, #ffb905, #ffb905);
+}
+
+/* <header/> */
+
+.baner {
+  height: 101.5vh;
+  background-color: #004743 !important;
+}
+
+.toy {
+  width: 100%;
+}
+
+.text-main {
+  color: #ffb905;
+  font-size: 33px;
+  font-weight: 700;
+}
+.mt-10 {
+  margin-top: 6rem !important;
+}
+
+/* <UPSKILLING SOLUTIONS> */
+.text-business {
+  color: #ffb905;
+  font-size: 75px;
+  margin-top: -12px;
+  font-weight: 700 !important;
+}
+.upskilss {
+  font-size: 50px !important;
+  color: #004743;
+  font-weight: 700;
+}
+.performance {
+  font-size: 22px;
+  line-height: 1.6 !important;
+  font-weight: 500;
+}
+.boarding_section {
+  border: 1px solid transparent;
+  padding: 2rem;
+  background-color: yellow;
+  width: 100%;
+  height: 800px;
+  border-radius: 10%;
+}
+.compliancesection {
+  border: 1px solid transparent;
+  border-radius: 8px;
+  padding: 2rem;
+  background-color: black;
+  width: 100%;
+  height: 800px;
+  border-radius: 10%;
+}
+
+.productsection {
+  border: 1px solid transparent;
+  border-radius: 8px;
+  padding: 2rem;
+  background-color: pink;
+  width: 100%;
+  height: 800px;
+  border-radius: 10%;
+}
+.Diversitysection {
+  border: 1px solid transparent;
+  border-radius: 8px;
+  padding: 2rem;
+  background-color: yellow;
+  width: 100%;
+  height: 800px;
+  border-radius: 10%;
+}
+.salesection {
+  border: 1px solid transparent;
+  border-radius: 8px;
+  padding: 2rem;
+  background-color: crimson;
+  width: 100%;
+  height: 800px;
+  border-radius: 10%;
+}
+.customerssection {
+  border: 1px solid transparent;
+  border-radius: 8px;
+  padding: 2rem;
+  background-color: peachpuff;
+  width: 100%;
+  height: 800px;
+  border-radius: 10%;
+}
+.Bussinesssection_image {
+  width: 100%;
+  margin-top: 5rem;
+}
+
+.employee {
+  font-size: 38px;
+  font-weight: 700;
+}
+.youremploye {
+  text-align: justify;
+  line-height: 1.6 !important;
+  font-size: 19px;
+  font-weight: 500;
+}
+
+/* <buttons/> */
+
+.viewlearn_btn {
+  background-color: #ffb905;
+  border-radius: 25px;
+  padding: 12px;
+  color: #004743;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 700 !important;
+  width: 60%;
+  border: 1px solid #ffb905;
+}
+
+.Downloadbutton {
+  background-color: #ffb905;
+  border-radius: 25px;
+  padding: 13px;
+  align-items: center;
+  justify-content: center;
+  color: #004743;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 700 !important;
+  width: 30%;
+  border: 1px solid #ffb905;
+}
+.modalbutton {
+  background-color: #ffb905;
+  border-radius: 25px;
+  padding: 12px;
+  align-items: center;
+  justify-content: center;
+  color: #004743;
+  cursor: pointer;
+  font-size: 22px;
+  font-weight: 700 !important;
+  width: 80%;
+  border: 1px solid #ffb905;
+}
+
+/* <section/option/> */
+
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: none;
+  outline: none;
+  background-color: white;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 200px;
+  cursor: pointer;
+}
+
+select:focus {
+  border-color: #ffb905;
+  box-shadow: 0 0 5px #ffb905;
+}
+
+select option {
+  background-color: #fff;
+  color: #333;
+}
+
+select option:checked {
+  background-color: #ffb905;
+  color: black;
+}
+
+/* <purposed/> */
+
+.purposewaper {
+  background-color: #004743 !important;
+}
+.purposebased {
+  font-size: 50px !important;
+  color: white;
+  font-weight: 500;
+}
+.inititave {
+  color: #ffb905;
+  font-size: 75px;
+  font-weight: 700 !important;
+}
+.improvement {
+  font-size: 20px;
+  line-height: 1.6 !important;
+  font-weight: 500;
+  color: white;
+}
+.product-traning {
+  font-size: 35px;
+  font-weight: 700;
+  color: white;
+}
+
+.yourproduct {
+  text-align: justify;
+  line-height: 1.5 !important;
+  font-size: 17px;
+  color: #ffb905;
+  font-weight: 700;
+}
+.training_section {
+  border: 1px solid white;
+  padding: 2rem;
+  background-color: transparent;
+  width: 90%;
+  height: 600px;
+  border-top-right-radius: 18%;
+  border-top-left-radius: 20%;
+  border-bottom-left-radius: 11%;
+  border-bottom-right-radius: 11%;
+}
+.Bussinesssection_im {
+  width: 250px;
+}
+.logoproduct {
+  width: 70px;
+}
+
+/* <modal/> */
+label {
+  padding: 0px !important;
+  font-weight: 700;
+}
+.Downloadcase {
+  background-color: yellow;
+  padding: 15px;
+  border-radius: 14px;
+}
+.title {
+  color: green;
+  font-weight: 700;
+}
+.casestdyform input {
+  border: none;
+  line-height: 34px;
+}
+
+/* <icons/> */
+.fa-download {
+  font-size: 25px;
+}
+.fa-power-off {
+  transform: rotate(270deg);
+  font-size: 25px;
+}
+.sbbtn {
+  font-weight: 700;
+  width: 30%;
+}
+.info {
+  font-weight: 600;
+}
+
+@media screen and (max-width: 768px) {
+  .Bussinesssection_im {
+    width: 200px;
+  }
+  .logoproduct {
+    height: 50px;
+  }
+  .btn-close-white {
+    filter: invert(1);
+  }
+  .training_section {
+    height: fit-content;
+    width: 100%;
+  }
+  .employeeupskil {
+    margin-top: 22px;
+  }
+  .nav-mobile a {
+    text-decoration: none !important;
+    margin-right: 0px;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 0;
+    line-height: 70px;
+    text-align: center !important;
+    justify-content: center;
+    color: white;
+  }
+  .offcanvas {
+    background-color: #004743;
+  }
+  .contatc {
+    width: 100%;
+    margin-left: -2px !important;
+  }
+  .btn-close {
+    color: white !important;
+  }
+  .unorder {
+    list-style-type: none;
+    padding: 0rem;
+  }
+  .text-main {
+    color: #ffb905;
+    font-size: 18px !important;
+  }
+  .nav-items {
+    display: none;
+  }
+  .mt-10 {
+    margin-top: 4rem !important;
+  }
+  .menu {
+    font-size: 30px;
+    margin-top: -12px;
+    display: block;
+  }
+  .performance {
+    font-size: 14px !important;
+  }
+  .viewlearn_btn {
+    width: 100% !important;
+  }
+  .employee {
+    font-size: 20px;
+    margin-top: 0px !important;
+    padding: 5px;
+  }
+  .youremploye {
+    font-size: 13px;
+    padding: 5px;
+    margin-top: 1rem !important;
+  }
+  .purposebased {
+    font-size: 18px !important;
+  }
+  .improvement {
+    font-size: 15px;
+    text-align: justify;
+  }
+  .inititave {
+    font-size: 25px !important;
+  }
+
+  .product-traning {
+    font-size: 20px !important;
+  }
+  .yourproduct {
+    font-size: 12px;
+    margin-top: 1rem !important;
+  }
+  .boarding_section {
+    height: fit-content;
+    margin-top: -25px;
+    border-radius: 10%;
+    padding: 10px;
+    width: fit-content !important;
+  }
+  .salesection {
+    height: fit-content;
+    margin-top: -25px;
+    border-radius: 10%;
+    padding: 10px;
+    width: fit-content !important;
+  }
+  .compliancesection {
+    height: fit-content;
+    margin-top: -25px;
+    border-radius: 10%;
+    padding: 10px;
+    width: fit-content !important;
+  }
+  .Diversitysection {
+    height: fit-content;
+    margin-top: -25px;
+    border-radius: 10%;
+    padding: 10px;
+    width: fit-content !important;
+  }
+  .customerssection {
+    height: fit-content;
+    margin-top: -25px;
+    border-radius: 10%;
+    padding: 10px;
+    width: fit-content !important;
+  }
+  .productsection {
+    height: fit-content;
+    margin-top: -25px;
+    border-radius: 10%;
+    padding: 10px;
+    width: fit-content !important;
+  }
+  .Bussinesssection_image {
+    margin-top: 1rem !important;
+    width: 100% !important;
+  }
+  .baner {
+    height: 96vh !important;
+  }
+  .logo {
+    width: 120px;
+  }
+  .bords {
+    width: 100% !important;
+  }
+  .compliancesection {
+    margin-top: 18px;
+  }
+  .customerssection {
+    margin-top: 18px;
+  }
+  .Diversitysection {
+    margin-top: 18px;
+  }
+  .Downloadbutton {
+    width: 100% !important;
+    font-size: 18px;
+    margin-top: -1px !important;
+  }
+  .fa-download {
+    font-size: 18px;
+  }
+  .productsection {
+    margin-top: -23px;
+  }
+  .salesection {
+    margin-top: -23px;
+  }
+  .text-business {
+    font-size: 29px !important;
+  }
+  .text-business {
+    font-size: 23px !important;
+  }
+  .upskilss {
+    font-size: 18px !important;
+  }
+}
+
+@media screen and (min-width: 1920px) and (min-height: 1080px) {
+  .baner {
+    height: 66.1vh !important;
+  }
+  .Bussinesssection_image {
+    margin-top: 15rem !important;
+  }
+  .youremploye {
+    margin-top: 2rem !important;
+  }
+  .boarding_section {
+    height: fit-content !important;
+  }
+  .salesection {
+    height: fit-content !important;
+  }
+  .compliancesection {
+    height: fit-content !important;
+  }
+  .Diversitysection {
+    height: fit-content !important;
+  }
+  .customerssection {
+    height: fit-content !important;
+  }
+  .productsection {
+    height: fit-content !important;
+  }
+}
+
+@media screen and (min-width: 1440px) and (min-height: 900px) {
+  .baner {
+    height: 79vh;
+  }
+  .Bussinesssection_image {
+    margin-top: 10rem !important;
+  }
+  .boarding_section {
+    height: fit-content !important;
+  }
+  .salesection {
+    height: fit-content !important;
+  }
+  .compliancesection {
+    height: fit-content !important;
+  }
+  .Diversitysection {
+    height: fit-content !important;
+  }
+  .customerssection {
+    height: fit-content !important;
+  }
+  .productsection {
+    height: fit-content !important;
+  }
+  .youremploye {
+    height: fit-content !important;
+  }
+}
+
+@media screen and (min-width: 1366px) and (min-height: 1024px) {
+  .baner {
+    height: 63vh;
+  }
+}
+
+
+@media screen and (min-width: 1366px) and (min-height: 1912px) {
+  .baner {
+    height: 33.5vh;
+  }
+}
