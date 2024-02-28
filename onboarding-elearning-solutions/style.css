@@ -1,3 +1,4 @@
+/* e-Learning-css-start */
 .fotr,
 .single_footer ul li a:hover,
 .url {
@@ -14,17 +15,15 @@ body {
 .mobile {
   display: none;
 }
-.anchoronbord {
-  text-decoration: none;
-}
-.contactsmenu {
-  font-size: 20px;
-  font-weight: 700;
-  background-color: #ffb905;
-  color: #004743;
-  border-radius: 50px;
-  width: 100%;
-  border: none;
+
+.contactsmenu{
+font-size: 20px;
+font-weight: 700;
+background-color: #ffb905;
+color: #004743;
+border-radius: 50px;
+width: 100%;
+border: none;
 }
 .arrow,
 .dropdown {
@@ -36,11 +35,11 @@ body {
 .input-group-text {
   font-size: 18px;
 }
-@media only screen and (min-width: 1400px) {
+/* @media only screen and (min-width: 1400px) {
   .container {
     max-width: 1380px !important;
   }
-}
+} */
 ::-webkit-scrollbar-track {
   box-shadow: inset 0 0 2px #ffb905;
 }
@@ -184,12 +183,11 @@ select {
   width: 100%;
 }
 .text-main {
-  color: #ffb905;
-  font-size: 40px;
-  font-weight: 700;
-  line-height: 50px;
+    color: #ffb905;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
 }
-
 .content-traning,
 .improvement,
 .performance {
@@ -210,7 +208,6 @@ select {
   margin-top: -12px;
   font-weight: 700 !important;
 }
-
 .upskilss {
   font-size: 28px !important;
   color: #004743;
@@ -450,7 +447,7 @@ select option:checked {
 }
 .lrn,
 .single_footer ul li p {
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 500;
   color: #fff;
 }
@@ -601,10 +598,11 @@ label {
   font-size: 26px;
   font-weight: 700 !important;
 }
-.homebutton { 
+.homebutton {
   background-color: #ffb905;
   border-radius: 25px;
-  padding: 13px;  align-items: center;
+  padding: 13px;
+  align-items: center;
   justify-content: center;
   cursor: pointer;
   font-size: 21px;
@@ -623,80 +621,7 @@ label {
   font-weight: 500;
 }
 @media screen and (max-width: 768px) {
-  .text-struggle {
-    color: #ffb905;
-    font-size: 24px;
-    font-weight: 700;
-  }
-  .inovationslouition {
-    font-size: 18px;                          
-    font-weight: 500;
-  }
-  .text-compresh {                                      
-    font-size: 26px !important;
-  }
-  .beyondheading {
-    font-size: 24px !important;
-  }
-  .Downloadbutton2 {
-    width: 100% !important;
-  }
-  .tned {
-    margin-top: 1rem !important;
-  }
-  .tneds {
-    margin-top: -1rem !important;
-  }
-  .pt-right {
-    padding-right: 0px !important;
-  }
-  .pt-left {
-    padding-left: 0px !important;
-  }
-  .empower-percentage {
-    font-size: 50px !important;
-  }
-  .empower-award {
-    width: 100% !important;
-  }
-  .Beyond-theory {
-    font-size: 20px !important;
-  }
-  .text-comp {
-    font-size: 24px !important;
-  }
-  .revolutionizing {
-    font-size: 24px !important;
-    margin-top: 10px !important;
-  }
-  .roadmap-head2 {
-    font-size: 24px !important;
-  }
-  .roadmap-head {
-    font-size: 24px !important ;
-  }
-  .roadmap-para3 {
-    margin-top: -24px;
-    font-size: 14px !important;
-  }
-  .roadmap-para1 {
-    margin-top: -24px !important;
-    font-size: 14px !important;
-  }
-  .roadmap-para2 {
-    margin-top: -24px !important;
-    font-size: 14px !important;
-  }
-  .roadmap-para4 {
-    margin-top: -24px !important;
-    font-size: 14px !important;
-  }
-  .frame-image {
-    height: 26vh !important;
-  }
-  .frame-para {
-    font-size: 10px !important;
-  }
+
   .carniva,
   .custom-content,
   .digital,
@@ -711,11 +636,7 @@ label {
   .offset-header {
     font-size: 11px !important;
   }
-  .envs,
-  .nav-items,
-  .screen {
-    display: none;
-  }
+ 
   .menu,
   .mobile {
     display: block;
@@ -1142,333 +1063,679 @@ label {
   }
 }
 
-/* onboardingsection */
-.warmimage {
-  width: 100%;
+
+/* e-Learning-css-end */
+/* learning-solution */
+
+.top-bar{
+    background: linear-gradient(105deg, #ffb905, #ffb905);
 }
-.warm_welcome {
-  background-color: #004743;
-  margin-top: -1px;
-  color: #fff;
-  border-radius: 0% 0% 50% 0%;
-  border: 1px solid transparent;
-  padding: 2rem;
-  width: 100%;
+.working-work{
+    margin-top: 10px;
 }
-.tnsight_welcome {
-  background-color: #ffb905;
-  margin-top: -1px;
-  color: #fff;
-  border-radius: 0% 0% 50% 0%;
-  border: 1px solid transparent;
-  padding: 2rem;
-  width: 100%;
+.contact{
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #ffb905;
+    color: #004743;
+    font-family: poppins !important;
+    padding: 6px 2em 8px 2em;
+    border-radius: 8px;
+    border: none;
 }
-.warmheading {
-  font-size: 26px;
-  font-weight: 700;
-  align-items: left;
-  text-align: left;
+.nav-items span {
+    font-size: 16px;
+    cursor: pointer;
+    color: #fff;
 }
-.warmparagraph {
+.items span {
+    color: #fff;
+    text-decoration: none;
+}
+.nav-items a{
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+
+}
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.banner-img{
+    width: 100%;
+    margin-bottom:7%;
+}
+.banner {
+    background-color: #004743 !important;
+}
+.text-main{
+    
+    color: #ffb905;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.Innoviative-solutions{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.6 !important;
+    color: #fff;
+}
+.download-button{
+    background-color: #ffb905;
+    border-radius: 25px;
+    padding: 13px;
+    color: #004743;
+    width: 40%;
+    border: 1px solid #ffb905;
+
+}
+.screen{
+    margin-top:10%;
+    
+}
+.start-strong{
+  
+  color: #004743;
+    /* color: yellow; */
+    font-size: 50px;
+    margin-top: -12px;
+    font-weight: 700 !important;
+}
+.start-strong-imgs{
+    width: 100%;
+}
+.start-strong-paragraph{
+    color: #fff;
+    padding-left: 15px;
+    text-align: left;
+    height: 200px;
+    font-size: 15px;
+    font-weight: 500;
+    width: 90%;
+}
+
+.start-strong-paragraphs{
+  color: #004743;
+
+  padding-left: 15px;
   text-align: left;
   height: 200px;
   font-size: 15px;
   font-weight: 500;
-}
-.tnsightonbord {
-  text-align: left;
-  height: 200px;
-  font-size: 15px;
-  font-weight: 500;
-  color: #004743;
-}
-.tnsightorganization {
-  font-size: 26px;
-  font-weight: 700;
-  align-items: left;
-  text-align: left;
-  color: #004743;
-}
-.text-compresh {
-  color: #004743;
-  font-size: 40px;
-  font-weight: 700 !important;
-}
-.byond {
-  background-color: #ffb905 !important;
-  padding: 0 0 48px;
-}
-.your-heading {
-  color: #004743;
-  font-weight: 500;
-  text-transform: uppercase;
-}
-.welcome-kit {
-  font-weight: 700;
-  font-size: 18px;
-  color: #004743;
-}
-
-.beyondheading {
-  color: #004743;
-  font-size: 35px;
-  font-weight: 500;
-}
-.prejoining {
-  width: 100%;
-}
-.leftdiv {
-  padding-right: 35px;
-}
-.rightdiv {
-  padding-right: 35px;
-}
-.Downloadbutton2 {
-  background-color: #004743;
-  align-items: center;
-  justify-content: center;
-  width: 30%;
-  border: 1px solid #004743;
-  border-radius: 25px;
-  padding: 13px;
-  color: #ffffff;
-  font-size: 21px;
-  font-weight: 700 !important;
-}
-.your-paragraphs {
-  color: #004743;
-  text-align: left;
-  font-size: 16px;
-  font-weight: 500;
-}
-.welcome-kit {
-  font-weight: 700;
-  font-size: 20px;
-  color: #004743;
-}
-.awards {
-  width: 100%;
-}
-.empower-logos {
-  display: grid;
-  justify-content: center;
-  align-items: center;
-  margin-top: 15%;
-}
-.empower-percentage {
-  font-size: 85px;
-  font-weight: 700;
-  text-align: center;
-  color: #004743;
-}
-.large-clients {
-  color: #004743;
-  font-size: 35px;
-  font-weight: 700;
-}
-.pt-right {
-  padding-right: 35px;
-}
-.empowerimg {
-  background-color: #004743;
-  border-radius: 55% 55% 0% 0%;
-}
-.empower-img {
-  width: 100%;
-}
-.empowercontact {
-  padding: 0%;
-  background-color: #004743;
-  border-radius: 0% 0% 5% 5%;
-}
-.empowerorange {
-  padding: 0%;
-  background-color: #ffb905;
-  border-radius: 0% 0% 5% 5%;
-}
-.empower-engage-excel-headings {
-  color: #fff;
-  font-size: 27px;
-  font-weight: 700;
-  text-align: left;
-}
-.empowrhead {
-  color: #004743;
-  font-size: 27px;
-  font-weight: 700;
-  text-align: left;
-}
-.emparagraph {
-  color: #004743;
-  text-align: left;
-  font-size: 15px;
-  font-weight: 500;
   width: 90%;
 }
-.empower-engage-excel-paragraph {
+.start-strong-headings{
   color: #fff;
-  text-align: left;
-  font-size: 15px;
-  font-weight: 500;
-  width: 90%;
-}
 
-.empower-engage-excel-heading {
+    margin-left: 20px;
+    font-size: 27px;
+    font-weight: 700;
+    align-items: left;
+    text-align: left;
+}
+.start-strong-heading{
   color: #004743;
-  font-size: 27px;
-  font-weight: 700;
-  text-align: left;
-}
-.empower-engage-excel-para {
-  color: #004743;
-  text-align: left;
-  font-size: 15px;
-  font-weight: 500;
-  width: 90%;
-}
-.pt-left {
-  padding-left: 35px;
-}
-.frame-image {
-  background-image: url("./image/Empower-Engage-Excel/learning-carnival-onboarding-frame.webp");
-  width: 100%;
-  height: 60vh;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  /* position: relative; */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-.trust-platforom {
-  height: 100%;
-  width: 91%;
-  padding-top: 15%;
-  padding-left: 10%;
-}
-.frame-para {
-  width: 80%;
-  font-weight: 500;
-  font-size: 15px;
-}
-.empower-award {
-  width: 50%;
-}
-.understandindustry {
-  padding: 0%;
-  background-color: #004743;
-  border-radius: 0% 0% 5% 5%;
-}
 
-.beyond-section {
-  background-color: #004743;
+    margin-left: 20px;
+    font-size: 27px;
+    font-weight: 700;
+    align-items: left;
+    text-align: left;
 }
-.Beyond-theory {
-  font-size: 28px;
-  color: #ffb905;
-  font-weight: 700 !important;
-  text-transform: uppercase;
+.warm-welcome{
+    background-color: orange;
+    margin-top: -1px;
+    height: 50%;
+    border-radius: 0% 0% 50% 0%;
 }
-.text-comp {
-  color: #fff;
-  font-size: 40px;
-  font-weight: 700 !important;
+.warm-welcome1{
+    background-color: #004743;
+    margin-top: -1px;
+    height: 50%;
+    color: #fff;
+    border-radius: 0% 0% 50% 0%;
 }
-.beyond-theory-img {
-  width: 100%;
+.download-btn{
+    background-color: orange;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    width: 31%;
+    border: 1px solid orange;
+    border-radius: 5px;
+    padding: 13px;
+    color: #004743;
+    font-weight: 500;
 }
-.revolutionizing {
-  color: #ffb905;
-  font-size: 35px;
-  font-weight: 700;
+.learning-carnival-img{
+    width: 100%;
 }
-.Challenge-content {
-  color: #fff;
-  font-size: 30px;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-.revolutionizingparagraph {
-  text-align: left;
-  color: #fff;
-  font-size: 15px;
-  font-weight: 500;
-}
-.percentage {
-  color: #ffb905;
-  font-weight: 700;
-  font-size: 40px;
-}
-.Challenges {
-  color: #fff;
-  width: 100%;
-  font-size: 18px;
-  font-weight: 500;
-}
-.roadmap-div {
-  background-color: #ffb905;
-  width: 100%;
-  height: 60%;
-  border-radius: 45px;
-}
-.roadmap-div2 {
-  background-color: #004743;
-  width: 100%;
-  height: 60%;
-  border-radius: 45px;
-}
-.roadmap-head {
+.your-paragraphs{
   color: #004743;
-  font-size: 28px;
-  font-weight: 700;
-  padding: 1rem;
-  text-align: left;
-  padding-top: 100px;
+
+    text-align: left;
+    font-size: 15px;
+    font-weight: 500;
 }
-.roadmap-para1 {
+.your-paragraphs-last-sec{
+    text-align: left;
+    color:#fff;
+    font-size: 15px;
+    font-weight: 500;
+}
+.your-heading{
   color: #004743;
-  font-size: 15px;
-  font-weight: 500;
-  padding: 1rem;
-  width: 100%;
-  height: 200px;
+
+    font-weight: 500;
+    text-transform: uppercase;
 }
-.roadmap-head2 {
-  color: #fff;
-  font-size: 25px;
-  font-weight: 700;
-  text-align: left;
-  padding: 1rem;
-  padding-top: 100px;
+.beyond-heading{
+    color: #004743;
+    font-size: 28px !important;
+    font-weight: 500;
 }
-.roadmap-para2 {
-  color: #fff;
-  font-size: 15px;
-  font-weight: 500;
-  width: 100%;
-  padding: 2rem;
-}
-.roadmap-para3 {
-  color: #fff;
-  font-size: 15px;
-  font-weight: 500;
-  width: 100%;
-  padding: 1rem;
+.beyond-heading-1st{
+    font-size: 50px;
+    font-weight: 700 !important;
 
 }
-.roadmap-para4 {
-  color: #fff;
-  font-size: 15px;
-  font-weight: 500;
-  width: 100%;
-  padding: 1rem;
+.exciting-journey{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.6 !important;
 }
-.roadmap-img {
+.beyond-orientation{
+    background-color:orange !important;
+    
+}
+.beyond-orientation-imgs{
+    width: 100%;
+
+}
+.beyond-download-btn{
+    background-color:  #004743;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid  #004743;
+    border-radius: 25px;
+    width: 31%;
+    padding: 13px;
+    color: #fff;
+    font-weight: 500;
+
+}
+.welcome-kit{
+    font-weight: 700;
+    font-size: 18px;
+    color: #004743;
+
+}
+.empower-logos{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+}
+.empower-percentage{
+    font-size: 105px;
+    font-weight: 700;
+    margin-left: 65px;
+    color: #004743;
+}
+.empower-engage-excel-contents3{
+    padding: 0%;
+    background-color: #004743;
+    border-radius: 0% 0% 5% 5%;
+    height: 19rem;
+}
+.large-clients{
+  color: #004743;
+
+    font-size: 40px;
+    font-weight: 700;
+}
+.empower{
+    font-size: 28px !important;
+   
+    font-weight: 700;
+}
+.empower-engage-excel{
+    color: #004743;
+    font-size: 50px;
+    margin-top: -12px;
+    font-weight: 700 !important;
+
+}
+.empower-ibg-color{
+    background-color: #004743;
+    border-radius: 55% 55% 0% 0%;
+}
+.empower-img{
+    width: 100%;   
+}
+
+.empower-engage-excel-contents{
+    padding: 0%;
+    background-color: #004743;
+    border-radius: 0% 0% 5% 5%;
+
+}
+.empower-engage-excel-content{
+    padding: 0%;
+    background-color: orange;
+    border-radius: 0% 0% 5% 5%;
+
+}
+.empower-engage-excel-headings{
+    color: #fff;
+    font-size: 27px;
+    font-weight: 700;
+    text-align: left;
+}
+.empower-engage-excel-paragraph{
+    color: #fff;    
+    text-align: left;
+    font-size: 15px;
+    font-weight: 500;
+    width: 90%;
+
+}
+.empower-bg-color{
+    background-color:orange;
+    border-radius: 55% 55% 0% 0%;
+}
+.empower-engage-excel-heading{
+    color:#004743;
+    font-size: 27px;
+    font-weight: 700;
+    text-align: left;
+}
+.empower-engage-excel-para{
+    color: #004743;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 500;
+    width: 90%;
+
+}
+.empower-imgs{
+    width: 100%;   
+
+}
+.frame-para{
+    font-size: 15px;
+    font-weight: 700 ;
+
+}
+.contact-us-img{
+    width: 25px;
+    height: 30px;
+}
+.contact-download-btn{
+    background-color: #ffb905;
+    border-radius: 25px;
+    padding: 13px;
+    color: #004743;
+    width: 31%;
+    border: 1px solid #ffb905;
+    font-size: 18px;
+    font-weight: 700;
+}
+.contact-button{
+  margin-top: 100px;
+}
+.roadmap-img{
   width: 85%;
   margin-left: 30px;
   position: relative;
   top: 70px;
 }
+.roadmap-para{
+  padding-top: 100px;
+
+}
+.roadmap-div{
+  
+  background-color: #ffb905;
+  width: 100%;
+  height: 60%;
+  border-radius: 45px;
+
+
+}
+.roadmap-para3{
+    color: #fff;
+
+  text-align: left;
+  font-size: 15px;
+  font-weight: 500;
+  width: 90%;
+  margin-left: 20px;
+}
+.roadmap-para{
+  color: #fff;
+  font-size: 27px;
+  font-weight: 700;
+  text-align: left;
+  margin-left: 20px;
+}
+.roadmap-head{
+  color: #004743;
+  font-size: 27px;
+  font-weight: 700;
+  text-align: left;
+  margin-left: 20px;
+  padding-top: 100px;
+}
+.roadmap-para1{
+  color: #004743;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 500;
+    width: 90%;
+    margin-left: 20px;
+}
+.roadmap-div1{
+  
+  background-color: #004743;
+  width: 100%;
+  height: 60%;
+  border-radius: 45px;
+  color: #fff;
+  font-size: 27px;
+  font-weight: 700;
+  text-align: left;
+
+}
+
+.frame-image{
+    background-image: url("./elearning-Data-WebP/Empower-Engage-Excel/learning-carnival-onboarding-frame.webp");
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+    margin-top: 15%;
+
+}
+.trust-platforom{
+    height: 100%;
+    width: 91%;
+    padding-top: 15%;
+    padding-left: 10%;  
+}
+.beyond-theory-img{
+    width: 100%;
+    padding-top:20%;
+
+}
+.beyond-section{
+    background-color:#004743 ;
+
+}
+.Beyond-theory{
+    padding-top: 50px;
+    margin-top: 5%;
+    font-size: xxx-large;
+    color:#ffb905 ;
+    font-size: 50px;
+    font-weight: 700 !important;
+}
+.e-Learning-Success-Stories{
+    font-size: 50px;
+    font-weight: 500 !important;
+    color: #fff;
+}
+.revolutionizing{
+    padding-top: 15%;
+    color: #ffb905;
+    font-size: 27px;
+    font-weight: 700;
+}
+.Challenge-content{
+    color: #fff;
+    font-size: 27px;
+    font-weight: 700;
+}
+.Challenge{
+    color: #fff;
+    font-size: 27px;
+    font-weight: 700;
+}
+.Challenges{
+    color: #fff;
+    width: 35%;
+    font-size: 15px;
+    font-weight: 500;
+}
+.percentage {
+  color: #ffb905;
+  margin-left: 18px;
+  font-weight: 700;
+  font-size: xxx-large;
+}
+.Downloadnowbutton1{
+    background-color: #ffb905;
+    align-items: center;
+    justify-content: center;
+    width: 31%;
+    border: 1px solid #ffb905;
+    border-radius: 25px;
+    padding: 13px;
+    color: #004743;
+    font-size: 21px;
+    font-weight: 700 !important;
+}
+.Downloadnowbutton2{
+    background-color: #ffb905;
+    display: block;
+    margin-left: 18px;
+
+    width: 45%;
+    border: 1px solid #ffb905;
+    border-radius: 25px;
+    padding: 13px;
+    color: #004743;
+    font-size: 21px;
+    font-weight: 700 !important;
+}
+.Downloadbutton2{
+    background-color: #004743;
+    align-items: center;
+    justify-content: center;
+    
+    width: 31%;
+    border: 1px solid #004743;
+    border-radius: 25px;
+    padding: 13px;
+    color: #ffffff;
+    font-size: 21px;
+    font-weight: 700 !important;
+}
+.footer{
+    border-top: 1px solid #fff;
+}
+@media screen and (max-width: 768px) {
+
+  .nav-items{
+   display: none ;
+ }
+
+ .Downloadnowbutton2 {
+   
+    width: 85% !important;
+    margin-top: 115px;
+    margin-bottom: 43px;
+  
+}
+
+  .Downloadbutton2{
+    width: 80%;
+   }
+   .contact-download-btn {
+   
+    width: 91%;
+  
+}
+.center-button{
+  width: 26rem;
+  margin-left: -26px;
+}
+.empower-engage-excel-contents3 {
+
+  height: 27rem;
+}
+
+
+.Downloadnowbutton1 {
+
+  width: 91%;
+  margin-top: 100px;
+
+}
+.start-strong-imgs {
+  padding-top: 80px;
+}
+.award-change{
+  height: 82%;
+}
+.frame-image {
+  background-image: url(./elearning-Data-WebP/Empower-Engage-Excel/learning-carnival-onboarding-frame.webp);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: contain;
+}
+.trust-platforom {
+  height: 100%;
+  padding: 27px 34px;
+  margin-left: 15px;
+
+}
+.frame-para {
+  font-size: 9px;
+  font-weight: 790;
+} 
+.image-center{
+  margin-left: -23px;
+}
+
+
+} 
+/* learning-solution-end */
+
+/* <==========Shubham===========> */
+.Mainbtn{
+width: 55%;
+}
+.empower-award{
+  width: 90%;
+}
+@media screen and (max-width: 768px) {
+.Viewshubham{
+width: 95%;
+}
+}
+
+@media screen and (max-width: 768px) {
+.prejoin_shubham {
+padding-left: 8%;
+}
+}
+@media screen and (max-width:768px){
+  .start_shubham{
+    text-align: center !important;
+  }
+  .start-strong{
+    text-align: center !important;
+  }
+  
+}
+
+
+.beyond-orientation-imgs_rightdiv{
+  padding-left: 15px;
+}
+.pt-l_shubham{
+  padding-left: 35px;
+}
+.pt-r_shubham{
+  padding-right: 35px;
+}
+.beyond-orientation-imgs_leftdiv{
+ 
+  padding-right: 15px;
+}
+
+@media screen and (max-width:768px) {
+  .pt-l_shubham{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .pt-r_shubham{
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  
+}
+
+.stay_strong_row{
+  padding-top: 50px;
+}
+@media screen and (max-width:768px) {
+  .stay_strong_row{
+    padding-top: 0px;
+  }
+  .empower-logos{
+    margin-top: 0%;
+  }
+  .beyond_shubham{
+    padding-left: 15px;
+  
+  }
+  .start-strong{
+    font-size: 30px;
+  }
+  .performance{
+    font-size: 13px;
+  }
+  .screenreverse{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 0%;
+  }
+  .text-main{
+    font-size: 30px !important;
+   
+    line-height: 1.1;
+  }
+  /* .Innoviative-solutions{
+    padding-left: 15px;
+  } */
+  .weight18{
+    font-size: 18px !important;
+  }
+  .weight30{
+    font-size: 30px !important;
+  }
+  .weight15{
+    font-size: 15px !important;
+  }
+  /* .Innoviative-solutions{
+    padding-left: 2px;
+  }
+   .text-main{
+    padding-left: 2px;
+   } */
+ 
+}
+
+
+/* .start-strong{
+  text-align: start;
+} */
+
+
+
